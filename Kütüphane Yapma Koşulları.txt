@@ -1,0 +1,68 @@
+ı=================================ı
+| MGP++ KÜTÜPHANE YAZMA KURALLARI |
+ı=================================ı
+
+1. Dosya Adı:
+   - Anlamlı ve net olmalı. Örn: REB.h, OTO_SAYI.h
+   - Rastgele isimler yasak.
+
+2. Koruma Direktifleri:
+   - Her dosya için #pragma once veya include guard kullanılmalı.
+
+3. C Uyumlu:
+   - #ifdef __cplusplus #error "SADECE C DERLEYİCİSİ!" #endif
+
+4. API Bağlantısı:
+   - API.durum[x] ile kütüphane aktif/pasif kontrolü yapılmalı.
+
+5. Fonksiyon İsimlendirme:
+   - Büyük harf ve kısa olmalı: EKLE, SIL, AYIR.
+   - İngilizce KULLANILMAYACAK, BİZ TÜRKÜZ AGA!!! TR
+
+6. Kütüphane Alan Adı (KÜTALA):
+   - Bizimle iletişime geçerek alan adı alınmalı.
+   - Kütüphane kodu (örn: 0xBA0C) seçilmeli.
+
+7. Dökümantasyon:
+   - Her fonksiyonun başına kısa açıklama yazılmalı.
+     Örn: // EKLE: Vektöre yeni eleman ekler.
+   - Veya "YORUM.txt" ile anlatılmalı.
+     Örn: // Ben Web desteği yaptım.
+
+8. Test Zorunlu:
+   - Kendi main.c’de test edilmeden yayınlama yok.
+   - Kütüphane
+
+9. Bağımlımlı Kütüphaneler (DBK):
+   - Kütüphane tek başına çalışabilmeli, zorunlu başka kütüphane varsa yazılmalı ve uygun bir şekilde ek olarak "DIŞ BAĞIMLILIK.txt" yazılmalı.
+
+10. Versiyon Etiketi:
+   - Dosya başında versiyon numarası yazmalı.
+      * Örn: // MGP++ 25.2 REB.h v1.0
+
+NOT:
+   - Bu kütüphaneler 25.3 yada 26.1 sürümüne kadar bekletilecek. Sonra eklenecektir.
+   - Otomatikli kütüphane desteği yok. Ama 25.3 yada 26.1'de.
+
+.____________________________________________________________________________________.
+|YAZAN: MGP++ Geliştirici							     |
+|TARİH: 2025									     |
+|NOT: Bu kurallar MGP++ ekosistemine uygun kütüphane geliştirmek için hazırlanmıştır.|
+|------------------------------------------------------------------------------------|
+|										     |
+| İletişim bilgileri:								     |
+|										     |
+| - Tel: 0551 471 98 97								     |
+|										     |
+| - MGP KURS: https://sites.google.com/view/mgp-kurs/ana-sayfa			     |
+|										     |
+| - Micraçer: https://sites.google.com/view/tr-micracer/anasayfa	 	     |
+|										     |
+|------------------------------------------------------------------------------------|
+|										     |
+| Micraçer Sözü:								     |
+|										     |
+| "Yazılımcılar için!"								     |
+|										     |
+| - M** S** İ**									     |
+|____________________________________________________________________________________|
