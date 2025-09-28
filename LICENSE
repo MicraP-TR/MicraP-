@@ -1,21 +1,43 @@
-MIT License
+MGP++ 25.1
+Copyright (c) 2025, Miraç
 
-Copyright (c) 2025 MicraP-TR
+LİSANS KOŞULLARI:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Kullanım:
+   - MGP++ yalnızca kişisel ve eğitim amaçlı kullanılabilir.
+   - Ticari kullanımlar için Miraç’ın yazılı izni gerekir (uygulama yapmak bile).
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+2. Değişiklik ve Paylaşım:
+   - Kaynak kod üzerinde değişiklik yapılabilir, 
+     ancak değiştirilmiş sürümler Miraç’ın adı kullanılmadan yayımlanamaz.
+   - Bu dosya, lisans koşulları korunarak paylaşılabilir.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+3. Yasaklar:
+   - MGP++, izinsiz ticari faaliyetlerde kullanılamaz.
+   - Devlet veya kurum desteği varmış gibi gösterilemez.
+   - MGP++, farklı şirketinmiş gibi gösterilemez.
+
+4. Sorumluluk Reddi:
+   - Bu yazılım "OLDUĞU GİBİ" sağlanmaktadır.
+   - Herhangi bir hata, veri kaybı veya zarardan Miraç sorumlu değildir.
+
+5. Bir Uygulama Yapma Lisansı:
+   - Uygulama yapmak için MGPL (Micraçer GOŞ Program Lisans) lisansı almak için
+     "isletmekanal40@gmail.com" hesabı üzerinden lisans almak lazımdır.
+   - Paralı lisans içinde "isletmekanal40@gmail.com" hesabı üzerinden lisans
+     almak lazımdır.
+
+6. Kütüphane eklentisi:
+   - Kütüphane yapmak içinde Miraç'ın izni gerekir.
+   - Kütüphane, MGPL'nin koşullarını uymalıdır.
+   - Kopyalama & Yapıştırmayla kütüphane kabul edilmez.
+   - Tüm kütüphaneler MGP++'in birer parçasıdır.
+
+MGP++ = Miraç’ın özgün projesidir. 
+Tüm hakları saklıdır.
+
+Miraç Salih İşler
+
+MİCRAÇER (MICRACHER)
+
+Son değiştirilme tarihi: 20 Eylül 2025
