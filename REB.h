@@ -1,55 +1,42 @@
+#pragma once
+
 #ifdef __cplusplus
 #error "HATA: SADECE C DERLEYİCİSİ KULLANILABİLİR!"
 #endif
 
-#include "MicraP++ (25.2).h"
 #include <stdlib.h>
 
-struct reb {
-    int bayt = 0;
-    int bit = 0;
-};
+typedef struct {
+    int bayt;
+    int bit;
+} RAM;
 
-extern struct reb REB;
+extern RAM REB;
 
-inline void REB_AYIR(int boyut) {
-    if (API.durum[1] == 'D') {
-        if (boyut > 0) {
-            malloc(sizeof(int) * boyut);
-        }
-        return;
+inline int* REB_AYIR(int boyut) {
+    if (boyut > 0) {
+        return malloc(sizeof(int) * boyut);
     }
+    return NULL;
 }
 
 inline void REB_EKLE(int* adres, int index, int veri) {
-    if (API.durum[1] == 'D') {
-        if (adres != NULL) {
-            adres[index] = veri;
-        }
-    }
+    if (adres != NULL) adres[index] = veri;
 }
 
 inline void REB_SİL(int* adres) {
-    if (API.durum[1] == 'D') {
-        if (adres != NULL) {
-            free(adres);
-        }
+    if (adres != NULL) {
+        free(adres);
     }
 }
 
-inline void REB_TEMİZLE(int* adres) {
-    if (API.durum[1] == 'D') {
-        if (adres != NULL) {
-            *adres = 0;
-        }
-    }
+inline void REB_TEMIZLE(int* adres) {
+    if (adres != NULL) *adres = 0;
 }
 
 inline void ÖLÇ(int* adres) {
-    if (API.durum[1] == 'D') {
-        if (adres != NULL) {
-            REB.bayt = sizeof((int)adres);
-            REB.bit = sizeof((int) adres / 8);
-        }
+    if (adres != NULL) {
+        REB.bayt = sizeof(*adres);
+        REB.bit = REB.bayt * 8;
     }
 }
