@@ -45,24 +45,25 @@ NOT:
    - Otomatikli kütüphane desteği yok. Ama 25.3 yada 26.1'de.
 
 .____________________________________________________________________________________.
-|YAZAN: MGP++ Geliştirici							     |
-|TARİH: 2025									     |
-|NOT: Bu kurallar MGP++ ekosistemine uygun kütüphane geliştirmek için hazırlanmıştır.|
+|YAZAN: MGP++ Geliştirici							                                        |
+|TARİH: 2025									                                              |
+|NOT: Bu kurallar MGP++ ekosistemine uygun kütüphane geliştirmek için hazırlanmıştır.| 
 |------------------------------------------------------------------------------------|
-|										     |
-| İletişim bilgileri:								     |
-|										     |
-| - Tel: 0551 471 98 97								     |
-|										     |
-| - MGP KURS: https://sites.google.com/view/mgp-kurs/ana-sayfa			     |
-|										     |
-| - Micraçer: https://sites.google.com/view/tr-micracer/anasayfa	 	     |
-|										     |
+|										                                                       |
+| İletişim bilgileri:								                                        |
+|										                                                       |
+| - Tel: 0551 471 98 97								                                        |
+|										                                                       |
+| - MGP KURS: https://sites.google.com/view/mgp-kurs/ana-sayfa			                |
+|										                                                       |
+| - Micraçer: https://sites.google.com/view/tr-micracer/anasayfa	 	                |
+|										                                                       |
 |------------------------------------------------------------------------------------|
-|										     |
-| Micraçer Sözü:								     |
-|										     |
-| "Yazılımcılar için!"								     |
-|										     |
-| - M** S** İ**									     |
+|										                                                       |
+| Micraçer Sözü:								                                              |
+|										                                                       |
+| "Yazılımcılar için!"								                                        |
+|										                                                       |
+| - M** S** İ**									                                           |
+|                                                                                    |
 |____________________________________________________________________________________|
